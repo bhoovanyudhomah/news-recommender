@@ -1,0 +1,53 @@
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="/static/assets/img/sidebar-1.jpg">
+      <div class="logo">
+        <a target="_blank" rel="noopener noreferrer" 
+           href="https://appseed.us/admin-dashboards/django-dashboard-material" class="simple-text logo-normal">
+          News Recommender
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item {% if 'index' in segment %} active {% endif %}">
+            <a class="nav-link" href="/home/">
+              <i class="material-icons">dashboard</i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'page-user' in segment %} active {% endif %}">
+            <a class="nav-link" href="/page-user.html">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'preferences' in segment %} active {% endif %}">
+            <a class="nav-link" href="/preferences.html">
+              <i class="material-icons">content_paste</i>
+              <p>Preferences</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'saved-articles' in segment %} active {% endif %}">
+            <a class="nav-link" href="/saved-articles.html">
+              <i class="material-icons">library_books</i>
+              <p>Saved News Articles</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'ui-notifications' in segment %} active {% endif %}">
+            <a class="nav-link" href="/ui-notifications.html">
+              <i class="material-icons">notifications</i>
+              <p>Notifications</p>
+            </a>
+          </li>
+          
+
+          <li class="nav-item ">
+              <a class="nav-link" href="/logout/">
+              <i class="material-icons">logout</i>
+              <p>Logout</p>
+              </a>
+          </li>
+
+
+        </ul>
+      </div>
+
+    </div>
